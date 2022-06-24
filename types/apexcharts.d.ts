@@ -8,7 +8,7 @@
 // There is on-going work to provide a comprehensive typed definition for this component.
 // See https://github.com/DefinitelyTyped/DefinitelyTyped/pull/28733
 
-declare class ApexCharts {
+export class ApexCharts {
   constructor(el: any, options: any)
   render(): Promise<void>
   updateOptions(
